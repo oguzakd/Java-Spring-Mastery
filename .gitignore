@@ -1,0 +1,20 @@
+# Mac sistem dosyaları
+.DS_Store
+
+# Java / Maven derleme dosyaları (Tüm alt klasörleri kapsar)
+**/target/
+**/*.class
+
+# IDE dosyaları
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+.metadata
+
+# Log ve geçici dosyalar
+*.log
+temp/
