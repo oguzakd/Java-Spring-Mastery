@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.oguzhanakduman</groupId>
-	<artifactId>05-Spring-Security-Jwt</artifactId>
+	<artifactId>05.1-Spring-Security-Jwt-Swagger</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>05-Spring-Security-Jwt</name>
+	<name>05.1-Spring-Security-Jwt-Swagger</name>
 	<description>Demo project for jwt</description>
 	<url />
 	<licenses>
@@ -31,6 +31,11 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>3.0.1</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
