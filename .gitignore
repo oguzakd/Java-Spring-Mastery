@@ -1,20 +1,45 @@
-# Mac sistem dosyaları
+HELP.md
+
+### Maven / Java ###
+target/
+*.class
+.mvn/
+
+# Maven wrapper (repo’da kalması istenen dosya)
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Hassas konfigürasyon ###
+application.properties
+
+### macOS ###
 .DS_Store
 
-# Java / Maven derleme dosyaları (Tüm alt klasörleri kapsar)
-**/target/
-**/*.class
-
-# IDE dosyaları
-.idea/
-*.iml
-.vscode/
-.settings/
+### STS ###
+.apt_generated
 .classpath
-.project
 .factorypath
-.metadata
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# Log ve geçici dosyalar
-*.log
-temp/
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
